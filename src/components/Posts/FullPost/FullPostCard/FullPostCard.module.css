@@ -1,0 +1,47 @@
+.CardContainer {
+    width: 18rem;
+    margin: 0 auto
+}
+
+.Buttons{
+    text-align: right;
+}
+
+.Button {
+    margin-left: 1.25rem;
+}
+
+.Icon {
+    width: 1.15rem;
+    height: auto;
+}
+
+.Alert {
+    position: fixed;
+    z-index: 100;
+    bottom: 5%;
+    right: 5%;
+    animation: alertAnimation 6s forwards ease-in-out;
+}
+
+@keyframes alertAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    2% {
+        opacity: 0.5;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

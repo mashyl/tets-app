@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #343A40;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -12,6 +14,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.Status {
+    width: 6rem;
+    height: 6rem;
+}
+
+
 
 .App-header {
   background-color: #282c34;
