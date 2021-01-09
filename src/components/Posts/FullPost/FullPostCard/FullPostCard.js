@@ -165,7 +165,7 @@ const FullPostCard  = props => {
                     <Card.Body>
                         <Card.Title>{editedPost.title}</Card.Title>
                         <Card.Text>{editedPost.body}</Card.Text>
-                        {isDeletedSuccess
+                        {isDeletedSuccess || selectedPost.body === null    //i could've handled deletion state more gracefully but i got carried away by using hooks :)
                         ? null
                         : <div className={classes.Buttons}>
                             <Button 
